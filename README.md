@@ -1,13 +1,13 @@
 # Technical Exam – Ethereum Full-Stack (React + .NET)
 
-A small full-stack dApp that:\
-  Connects a wallet via MetaMask\
-  Shows ETH balance and recent transactions\
-  Exposes a versioned ASP.NET Core API\
-      v1: Etherscan (gas, block, balance/dashboard)\
-      v2: Alchemy (gas, block, balance)\
-  Integrates ERC-20 (ZUMEL) and ERC-721 (ZumelNFT) on Sepolia\
-  Lets users approve ZUMEL spending and mint an NFT with a provided tokenURI\
+A small full-stack dApp that:<br />
+  *Connects a wallet via MetaMask<br />
+  *Shows ETH balance and recent transactions\
+  *Exposes a versioned ASP.NET Core API\
+      *v1: Etherscan (gas, block, balance/dashboard)\
+      *v2: Alchemy (gas, block, balance)\
+  *Integrates ERC-20 (ZUMEL) and ERC-721 (ZumelNFT) on Sepolia\
+  *Lets users approve ZUMEL spending and mint an NFT with a provided tokenURI\
 
 # Stack
   Frontend\
@@ -175,6 +175,7 @@ Caching\
 
 Package\
     I will test and update the How to setup the environment, coming from this repository to a working env.\
+
 
 
 
