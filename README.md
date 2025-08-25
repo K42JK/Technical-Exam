@@ -54,16 +54,13 @@ API keys:
 Configuration
   Frontend env (client/.env or .env.local)
 
-# Sepolia by default
+Sepolia by default
 VITE_CHAIN_ID=11155111
 
-# Contract addresses (lowercased by code)
+Contract addresses (lowercased by code)
 VITE_ZUMEL_TOKEN=0xdb031fad0006787d7f799ea2f39e53502260abb0
 VITE_ZUMEL_NFT=0xb89d729fdaf3ca921ed9faa6cbd75eb19e7d4150
 
-# Default NFT metadata (served by your dev server)
-# If React (Vite) serves metadata: use the Vite port (e.g. 5173)
-# If ASP.NET serves metadata: use the API port instead
 VITE_DEFAULT_TOKEN_URI=https://localhost:<your-api-port>/metadata/zumel-default.json
 
 
@@ -175,3 +172,4 @@ ZUMEL Token minting
 
 Caching
     IMemoryCache paths are lightly tested; edge cases may still exist.
+
