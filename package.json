@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.7",
+    "ethers": "^6.15.0",
+    "react-bootstrap": "^2.10.10"
+  }
+}

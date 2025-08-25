@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36327.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "technicalexam.client", "technicalexam.client\technicalexam.client.esproj", "{AC76375E-235B-9781-2CD8-BD030E07C01E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechnicalExam.Server", "TechnicalExam.Server\TechnicalExam.Server.csproj", "{892D8713-48BA-45F7-B0E5-22865C028900}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Backend", "Backend", "{AF244062-B783-4B3B-8EB8-64CD4E67F8BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Contracts", "Contracts", "{BFE66130-0CF1-49AC-89A8-AF7EAA6375FC}"
+	ProjectSection(SolutionItems) = preProject
+		zumel-token-nft\contracts\ZumelNFT.sol = zumel-token-nft\contracts\ZumelNFT.sol
+		zumel-token-nft\contracts\ZumelToken.sol = zumel-token-nft\contracts\ZumelToken.sol
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC76375E-235B-9781-2CD8-BD030E07C01E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC76375E-235B-9781-2CD8-BD030E07C01E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC76375E-235B-9781-2CD8-BD030E07C01E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{AC76375E-235B-9781-2CD8-BD030E07C01E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC76375E-235B-9781-2CD8-BD030E07C01E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC76375E-235B-9781-2CD8-BD030E07C01E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{892D8713-48BA-45F7-B0E5-22865C028900}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{892D8713-48BA-45F7-B0E5-22865C028900}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{892D8713-48BA-45F7-B0E5-22865C028900}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{892D8713-48BA-45F7-B0E5-22865C028900}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AC76375E-235B-9781-2CD8-BD030E07C01E} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{892D8713-48BA-45F7-B0E5-22865C028900} = {AF244062-B783-4B3B-8EB8-64CD4E67F8BB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3A0EC077-83AD-44F0-85FA-BA1076FF9120}
+	EndGlobalSection
+EndGlobal

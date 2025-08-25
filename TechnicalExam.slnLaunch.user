@@ -1,0 +1,16 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "technicalexam.client\\technicalexam.client.esproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "TechnicalExam.Server\\TechnicalExam.Server.csproj",
+        "Action": "Start",
+        "DebugTarget": "https"
+      }
+    ]
+  }
+]

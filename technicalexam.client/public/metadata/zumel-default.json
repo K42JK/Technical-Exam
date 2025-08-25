@@ -1,0 +1,15 @@
+{
+  "name": "Zumel NFT",
+  "description": "A mecha-themed Zumel (ZML) collectible.",
+  "image": "https://localhost:56613/images/zumel.png",
+  "attributes": [
+    {
+      "trait_type": "Theme",
+      "value": "Mecha"
+    },
+    {
+      "trait_type": "Token",
+      "value": "ZML"
+    }
+  ]
+}
