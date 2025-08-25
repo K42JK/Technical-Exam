@@ -1,4 +1,4 @@
-Technical Exam – Ethereum Full-Stack (React + .NET)
+# Technical Exam – Ethereum Full-Stack (React + .NET)
 
 A small full-stack dApp that:
   Connects a wallet via MetaMask
@@ -9,7 +9,7 @@ A small full-stack dApp that:
   Integrates ERC-20 (ZUMEL) and ERC-721 (ZumelNFT) on Sepolia
   Lets users approve ZUMEL spending and mint an NFT with a provided tokenURI
 
-Stack
+# Stack
   Frontend
     React + Vite + TypeScript
     ethers v6
@@ -33,7 +33,7 @@ Contracts (Sepolia)
 
   Network: Sepolia (chain id 11155111)
 
-Screens
+# Screens
   Connect wallet (MetaMask)
   ETH balance + recent transactions
   Approve ZUMEL allowance
@@ -42,7 +42,7 @@ Screens
   Network & Gas (via backend v2)
   Getting Started
 
-Prerequisites
+# Prerequisites
   Node 18+ and your package manager (npm / pnpm / yarn)
   .NET SDK 8 (or the version used by the solution)
   MetaMask browser extension
@@ -126,7 +126,7 @@ Frontend Features (Tier 1 & 4)
       Reads block number & gas via backend v2 (Alchemy)
       UI: Bootstrap – simple cards & tables.
 
-Backend Features (Tier 2)
+# Backend Features (Tier 2)
   REST endpoints (v1 Etherscan, v2 Alchemy)
   API versioning with Asp.Versioning and grouped Swagger
   Caching via IMemoryCache with TTLs
@@ -135,21 +135,21 @@ Backend Features (Tier 2)
     ConverterUtilities – hex to numeric conversions
     CacheUtilities – simple GetWithCacheAsync
 
-Smart Contracts (Tier 3)
+# Smart Contracts (Tier 3)
   ZUMEL (ERC-20) – public mint with rate limit (OpenZeppelin ERC20)
                    Each address can mint up to 100 ZUMEL per 30 minutes (18-decimals).
   ZumelNFT (ERC-721) – mint for a price (paid in ZUMEL), per-token tokenURI, owner withdraw, tokensOfOwner.
 
   Both deployed to Sepolia.
 
-Notes & Troubleshooting
+# Notes & Troubleshooting
   Wrong network: UI prompts to switch to Sepolia (chain id 11155111).
   Allowance vs. Mint: “Approve” authorizes the NFT contract to spend your ZUMEL.
                       You still sign the mint transaction, but you don’t need to approve again unless allowance is exhausted or revoked.
   Transactions table: built by scanning recent blocks via ethers.js; for production consider Alchemy / Etherscan / Covalent history APIs.
   HTTPS dev: Vite is configured with local dev certs so MetaMask will inject the provider on https://localhost.
 
-Assumptions & Decisions
+# Assumptions & Decisions
 
 API design:
     EthereumController v1 (Etherscan) was kept to provide granular endpoints and potential reuse.
@@ -161,7 +161,7 @@ Two contracts:
 React + TypeScript:
     Chosen (despite limited prior experience) to hit the bonus and modern stack.
 
-Known Issues / Limitations
+# Known Issues / Limitations
 
 Tier 1 – Transactions UI
     ethers.js browser provider doesn’t expose a search index; this component scans recent blocks (capped at ~3000) and may miss older txs.
@@ -172,5 +172,8 @@ ZUMEL Token minting
 
 Caching
     IMemoryCache paths are lightly tested; edge cases may still exist.
+
+Package
+    I will test and update the How to setup the environment, coming from this repository to a working env.
 
 
