@@ -84,13 +84,13 @@ Run
     cd server
     dotnet restore
     dotnet run
-# Swagger is available in Development (v1 & v2 groups)
+Swagger is available in Development (v1 & v2 groups)
 
   Frontend
     cd client
     npm install
     npm run dev
-# Vite dev server runs with HTTPS (MetaMask-friendly)
+Vite dev server runs with HTTPS (MetaMask-friendly)
 
 Open the frontend URL (e.g. https://localhost:5173) and connect MetaMask on Sepolia.
 
@@ -172,4 +172,5 @@ ZUMEL Token minting
 
 Caching
     IMemoryCache paths are lightly tested; edge cases may still exist.
+
 
